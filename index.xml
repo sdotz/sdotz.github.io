@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephen Dotz</title>
+    <link>http://www.stephendotz.com/</link>
+    <description>Recent content on Stephen Dotz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 22:50:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.stephendotz.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Dev Environment On Your Phone</title>
+      <link>http://www.stephendotz.com/posts/pocket-dev/</link>
+      <pubDate>Thu, 13 Dec 2018 22:50:00 -0400</pubDate>
+      
+      <guid>http://www.stephendotz.com/posts/pocket-dev/</guid>
+      <description>I&amp;rsquo;m editing some Go code in nvim, with syntax highlighting, autocomplete, and ability to build and run, on my iPhone X. The iPhone is running an iOS terminal app using the Mosh protocol to connect to my laptop at home over the cellular network. I have access to all the same things that I would use if I were working normally. I can code, test, commit and push code as usual, and use all of my pre-configured toolchains like kubectl and gcloud.</description>
+    </item>
+    
+    <item>
+      <title>Apple News Push API Client and Command Line Tool</title>
+      <link>http://www.stephendotz.com/posts/apple-news-push-api/</link>
+      <pubDate>Sat, 02 Jun 2018 10:58:56 -0400</pubDate>
+      
+      <guid>http://www.stephendotz.com/posts/apple-news-push-api/</guid>
+      <description>I&amp;rsquo;ve just open sourced a library for interacting with the Apple News Push API. For those who are unfamiliar, Apple News is an iOS app by Apple that made its debut at Apple&amp;rsquo;s Worldwide Developer Conference (WWDC) in 2015 with the release of iOS 9. It has been pre-installed on all iOS versions since then (Much like calculator, or calendar)
+Apple News is a bit different from most newsreader apps. It&amp;rsquo;s not based on RSS or web scraping.</description>
+    </item>
+    
+    <item>
+      <title>Hi, I&#39;m Stephen</title>
+      <link>http://www.stephendotz.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stephendotz.com/about/</guid>
+      <description>I manage the Publishing Pipeline team at The New York Times. We architect APIs and tooling to help product teams harness the full breadth of NYT&amp;rsquo;s published content in their apps and sites.
+Currently I&amp;rsquo;m working with
+ Google Cloud Platform Kubernetes Go Java gRPC Protocol Buffers Apache Kafka  I&amp;rsquo;m interested in technology, programming, coffee, futurism, and modern web architecture.</description>
+    </item>
+    
+  </channel>
+</rss>
