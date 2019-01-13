@@ -9,12 +9,12 @@
     <meta name="description" content="Stephen Dotz&#39;s website">
     <meta name="keywords" content="blog,developer,personal">
 
-    <base href="http://www.stephendotz.com/">
+    <base href="https://www.stephendotz.com/">
     <title>
   A Dev Environment On Your Phone · Stephen Dotz
 </title>
 
-    <link rel="canonical" href="http://www.stephendotz.com/posts/pocket-dev/">
+    <link rel="canonical" href="https://www.stephendotz.com/posts/pocket-dev/">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
@@ -23,7 +23,7 @@
     
       
       
-      <link rel="stylesheet" href="http://www.stephendotz.com/css/coder.min.1e2366334cf7de95544114e2ae4c7ccd362cf212bd1b287f7a92d1f974ec4f07.css" integrity="sha256-HiNmM0z33pVUQRTirkx8zTYs8hK9Gyh/epLR&#43;XTsTwc=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.stephendotz.com/css/coder.min.1e2366334cf7de95544114e2ae4c7ccd362cf212bd1b287f7a92d1f974ec4f07.css" integrity="sha256-HiNmM0z33pVUQRTirkx8zTYs8hK9Gyh/epLR&#43;XTsTwc=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -32,8 +32,8 @@
 
     
 
-    <link rel="icon" type="image/png" href="http://www.stephendotz.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://www.stephendotz.com/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.stephendotz.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.stephendotz.com/images/favicon-16x16.png" sizes="16x16">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
 
     
@@ -45,7 +45,7 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="http://www.stephendotz.com/">
+    <a class="navigation-title" href="https://www.stephendotz.com/">
       Stephen Dotz
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -54,11 +54,11 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://www.stephendotz.com/posts/">Blog</a>
+            <a class="navigation-link" href="https://www.stephendotz.com/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://www.stephendotz.com/about/">About</a>
+            <a class="navigation-link" href="https://www.stephendotz.com/about/">About</a>
           </li>
         
       
@@ -136,7 +136,7 @@ The iPhone is running an iOS terminal app using the Mosh protocol to connect to 
 
 <p>The mosh client first connects via SSH on port 22 using the standard protocol. Once connected, it starts the <code>mosh-server</code> for you, and then the client connects over UDP ports.</p>
 
-<p><img src="http://www.stephendotz.com/image/mosh.png" alt="Mosh connection diagram" /></p>
+<p><img src="https://www.stephendotz.com/image/mosh.png" alt="Mosh connection diagram" /></p>
 
 <h3 id="testing-it">Testing it</h3>
 
@@ -163,7 +163,7 @@ ChallengeResponseAuthentication no</pre></div>
 
 <p>Up until now, we’ve been connecting over LAN, meaning both devices have had to be on the same network. The IP you’re using is issued by your router and internal to your network. We want this to work anywhere. The modem you have at home has a public IP address which you can see by visiting icanhazip.com, but on most home internet connections, that IP can change from time to time. To get around that, we can use something called Dynamic DNS. DDNS maps a public hostname to the IP address of your internet connection, and that IP address is kept updated by software running on your router or computer. If your server is running in the cloud, you can assign it a static IP or hostname for this purpose.</p>
 
-<p><img src="http://www.stephendotz.com/image/dyn.png" alt="Dynamic DNS Diagram" /></p>
+<p><img src="https://www.stephendotz.com/image/dyn.png" alt="Dynamic DNS Diagram" /></p>
 
 <p>Head over to DuckDNS(duckdns.org), to set this up.  DuckDNS will give step-by-step setup for a variety of systems. Additionally, you can configure your own prettier CNAME record pointing to whatever ugly hostname they assign you. Feel free to use a different provider, but this one is free and has worked well for me thus far.</p>
 
@@ -203,7 +203,7 @@ ChallengeResponseAuthentication no</pre></div>
 
 <p>Wake on LAN is a feature that allows your computer to be woken up remotely. This setting should be enabled in System Preferences &gt; Energy Saver &gt; Wake for WiFi network access.</p>
 
-<p><img src="http://www.stephendotz.com/image/wake_on_lan.png" alt="OSX Wake On LAN settings" /></p>
+<p><img src="https://www.stephendotz.com/image/wake_on_lan.png" alt="OSX Wake On LAN settings" /></p>
 
 <p>Note that in order to remote to your machine while it is sleeping, it should be plugged in and either open, or connected to an external display. My laptop is powered through the display’s USB-C, and if the display goes to sleep, the laptop stops receiving power. I disabled my monitor’s sleep feature because of this. Your setup will likely differ, but I recommend testing wake on LAN thoroughly before depending on your setup.</p>
 
