@@ -6,10 +6,21 @@
     <description>Recent content on Stephen Dotz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Dec 2018 22:50:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 12:10:00 -0400</lastBuildDate>
     
 	<atom:link href="https://stephendotz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apache Kafka at The New York Times</title>
+      <link>https://stephendotz.com/posts/kafka-at-nyt/</link>
+      <pubDate>Sat, 01 Jun 2019 12:10:00 -0400</pubDate>
+      
+      <guid>https://stephendotz.com/posts/kafka-at-nyt/</guid>
+      <description>My Colleague Michael Kaminski and I had the pleasure of speaking at the Kafka Meetup hosted at DataDog HQ in NYC.
+We shared some of our learnings running Apache Kafka as part of The New York Times’s publishing infrastructure.
+We have an atypical use case for Kafka, and seeing it applied in such a unique way seemed to really entertain the audience, and brought out a lot of great questions.</description>
+    </item>
     
     <item>
       <title>A Dev Environment On Your Phone</title>
